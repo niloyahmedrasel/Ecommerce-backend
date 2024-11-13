@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Use ES6 as the output
+    "module": "CommonJS", // Node.js uses CommonJS module system
+    "outDir": "./dist", // Output the transpiled JS files into a dist directory
+    "rootDir": "./src", // Where your TypeScript source files are located
+    "esModuleInterop": true, // Allows default imports from modules with no default export
+    "skipLibCheck": true, // Skips type checking of declaration files for faster builds
+    "strict": true, // Enable strict type checking options
+    "forceConsistentCasingInFileNames": true, // Ensures file name casing is consistent
+    "resolveJsonModule": true // Optional, for JSON import support
+  },
+  "include": [
+    "src/**/*.ts" // Include all TypeScript files in the src folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude the node_modules folder
+  ]
+}
